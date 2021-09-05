@@ -26,6 +26,7 @@ function draw(){
         if(bars[i].touch(bubble)){
             drawWords();
             noLoop();
+            reloadPage();
         }
     }
     
